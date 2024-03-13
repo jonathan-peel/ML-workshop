@@ -1,0 +1,32 @@
+# Open a terminal and execute the following command to create the conda environment
+# for the workshop
+# 'conda env create -f environment.yml'
+
+name: machine_learning_workshop_2022
+
+channels:
+    - https://repo.anaconda.com/pkgs/main
+    - conda-forge
+
+dependencies:
+    - python==3.10.5
+    - pandas
+    - matplotlib
+    - scikit-learn==1.1.1
+    - seaborn
+    - jupyterlab==3.4.4
+    - pydot
+    - pillow
+    - pip
+    - pip:
+            - tensorflow==2.9.1
+            - tensorflow_datasets
+            - nltk
+            - gensim
+            - prettytable
+            - jupyterlab-code-formatter
+            - jupyterlab-git
+            - keras-tuner
+            - tensorflow_hub
+            - scikeras
+            - ipympl
