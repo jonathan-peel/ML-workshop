@@ -101,3 +101,4 @@ The workshop materials contain a `00_numpy_pandas_matplotlib_intro.ipynb`
 Jupyter Notebook with an introduction to NumPy, pandas and Matplotlib libraries, which we
 are used without further introduction during the workshop. Please prepare yourself and
 go through the notebook.
+# ML-workshop
